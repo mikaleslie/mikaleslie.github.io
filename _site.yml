@@ -12,6 +12,11 @@ navbar:
     - text: "CV"
       icon: fa-file-text-o
       href: CV.html
+  right:
+    - icon: fa-github
+      href: https://github.com/mikaleslie
+    - icon: fa-linkedin-square
+      href: https://www.linkedin.com/in/mika-leslie-02283a1b0/
 output:
   html_document:
     theme: sandstone
