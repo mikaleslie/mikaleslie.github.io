@@ -1,0 +1,12 @@
+---
+title: "Projects"
+---
+
+In the summer of 2020 I took a GIS course based in R, where I learned how to write code. Here is a collection of links to some of the projects I've created: 
+(When we do projects they will be linked here..)
+
+## [Building a project website]()
+
+- In this assignment we built a static users site with Github Pages 
+- We learned what a yml file is, and how to edit one
+- We created the basic files required for a website, including an index page and this page, and how to add them to a navbar

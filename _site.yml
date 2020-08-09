@@ -1,0 +1,17 @@
+name: "first-website"
+output_dir: "."
+navbar:
+  title: "Mika Leslie"
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "GIS Work"
+      icon: fa-globe
+      href: geog176A.html
+    - text: "CV"
+      icon: fa-file-text-o
+      href: CV.html
+output:
+  html_document:
+    theme: sandstone
