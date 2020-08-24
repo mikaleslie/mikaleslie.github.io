@@ -4,6 +4,7 @@ title: "Projects"
 
 In the summer of 2020 I took a GIS course based in R, where I learned how to write code. Here is a collection of links to some of the projects I've created: 
 
+****
 
 ## [Building a project website](https://mikaleslie.github.io/index.html)
 
@@ -11,11 +12,15 @@ In the summer of 2020 I took a GIS course based in R, where I learned how to wri
 - We learned what a yml file is, and how to edit one
 - We created the basic files required for a website, including an index page and this page, and how to add them to a navbar
 
+****
+
 ## [Manipulating Live Covid-19 Pandemic Data](https://mikaleslie.github.io/geog-176A-labs/lab-02.html)
 
 - In this assignment we worked with live data from the Covid-19 pandemic sourced from the NYT
 - We learned how to make tables and graphs with ggplot and knitr
 - We also worked on data.frame manipulation and joining datasets
+
+****
 
 ## [Projections, Distances, and Mapping](https://mikaleslie.github.io/geog-176A-labs/lab-03.html)
 
