@@ -20,6 +20,13 @@ In the summer of 2020 I took a GIS course based in R, where I learned how to wri
 - We learned how to make tables and graphs with ggplot and knitr
 - We also worked on data.frame manipulation and joining datasets
 
+
+![](img/lab2.png){width=60%}
+
+This image was produced using NYT covid-19 data and shows daily new cases in four states, as well as the seven day rolling mean. 
+
+
+
 ****
 
 ### [Projections, Distances, and Mapping](https://mikaleslie.github.io/geog-176A-labs/lab-03.html)
@@ -27,3 +34,40 @@ In the summer of 2020 I took a GIS course based in R, where I learned how to wri
 - In this assignment we began working with simple features objects and geos measures
 - Emphasis was placed on feature aggregations (combines/unions); coordinate references systems; and distance measurements
 - We also learned how to map geometric features and use aesthetic tools such as gghighlight
+
+![](img/lab3.png){width=60%}
+
+This map is a culmination of data analysis throughout the lab, and the application of mapping tools such as gghhighlight and ggrepel.
+
+****
+
+### [Tesselations, Spatial Joins, and Point-in-Polygon: Working with the National Dams Inventory](https://mikaleslie.github.io/geog-176A-labs/lab-04.html)
+
+- In this assignment we learned about geometry simplication, centroid generation, and tesselations
+- We used tesselations to explore the distribution of dams (and dam purpose) across the USA and challenges with the MAUP
+- Functions were implemented to automate repetitive tasks
+
+![](img/lab4.png){width=60%}
+
+This image shows density of dam locations in a CONUS projection using a voronoi tesselation. 
+
+****
+### [Raster Analysis and Remote Sensing](https://mikaleslie.github.io/geog-176A-labs/lab-05.html)
+
+- In this assignment we worked with multiband raster files to detect and analyze a flood event near Palo, Iowa.
+-  We practiced accessing and analysing data from Landsat 8 satellite. 
+- We learned about how different wavelengths can highlight different features via different combinations in the RGB channels.
+- We also practiced raster analysis using raster algebra and thresholding. 
+
+![](img/lab5.png){width=60%}
+
+This image shows five unique thresholding methods for delineating surface water features, created using different combinations of Landsat bands.
+
+****
+### [Terrain Analysis: Flood Risk in Mission Creek](https://mikaleslie.github.io/geog-176A-labs/lab-06.html)
+
+- We practiced accessing OSM data using the correct keys and values
+
+
+
+
