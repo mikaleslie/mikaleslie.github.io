@@ -19,4 +19,4 @@ navbar:
       href: https://www.linkedin.com/in/mika-leslie-02283a1b0/
 output:
   html_document:
-    theme: darkly
+    theme: flatly

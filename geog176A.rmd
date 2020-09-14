@@ -66,7 +66,10 @@ This image shows five unique thresholding methods for delineating surface water 
 ****
 ### [Terrain Analysis: Flood Risk in Mission Creek](https://mikaleslie.github.io/geog-176A-labs/lab-06.html)
 
-- We practiced accessing OSM data using the correct keys and values
+- In this assignment we estimated the number of buildings impacted in the 2017 Santa Barbara flood event along Mission Creek using data from web APIs (NLDI, OSM, AWS Elevation tiles).
+- We practiced accessing OSM data using the correct keys and values.
+- We used the whitebox frontend to generate a Height Above Nearest Drainage layer for the Mission Creek watershed.
+- This flood data was cross analyzed with the OSM data to identify and map impacted buildings.
 
 
 
