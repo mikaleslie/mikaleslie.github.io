@@ -8,22 +8,22 @@ In the summer of 2020 I took a GIS course based in R, where I learned how to wri
 
 ### [Building a project website](https://mikaleslie.github.io/index.html)
 
-- In this assignment we built this static users site with Github Pages
-- We learned what a yml file is, and how to edit one
-- We created the basic files required for a website, including an index page and this page, and how to add them to a navbar
+- Built this static users site with Github Pages 
+- Learned what a yml file is, and how to edit one
+- Created the basic files required for a website, including an index page and this page, and how to add them to a navbar
 
 ****
 
 ### [Data Wrangling: Manipulating Live Covid-19 Pandemic Data](https://mikaleslie.github.io/geog-176A-labs/lab-02.html)
 
-- In this assignment we worked with live data from the Covid-19 pandemic sourced from the NYT
-- We learned how to make tables and graphs with ggplot and knitr
-- We also worked on data.frame manipulation and joining datasets
+- Worked with live data from the COVID-19 pandemic sourced from the NYT
+- Learned how to make tables and graphs with ggplot and knitr
+- Worked on data.frame manipulation and joining datasets
 
 
 ![](img/lab2.png){width=60%}
 
-This image was produced using NYT covid-19 data and shows daily new cases in four states, as well as the seven day rolling mean. 
+This image was produced using NYT COVID-19 data and shows daily new cases in four states, as well as the seven day rolling mean. 
 
 
 
@@ -31,20 +31,20 @@ This image was produced using NYT covid-19 data and shows daily new cases in fou
 
 ### [Projections, Distances, and Mapping](https://mikaleslie.github.io/geog-176A-labs/lab-03.html)
 
-- In this assignment we began working with simple features objects and geos measures
+- Began working with simple features objects and geos measures
 - Emphasis was placed on feature aggregations (combines/unions); coordinate references systems; and distance measurements
-- We also learned how to map geometric features and use aesthetic tools such as gghighlight
+- Learned how to map geometric features, highlight features of interest using <code>gghhighlight</code> and label points neatly with <code>ggrepel</code>
 
 ![](img/lab3.png){width=60%}
 
-This map is a culmination of data analysis throughout the lab, and the application of mapping tools such as gghhighlight and ggrepel.
+This map is a culmination of data analysis throughout the lab, and the application of mapping tools such as <code>gghhighlight</code> and <code>ggrepel</code>.
 
 ****
 
 ### [Tesselations, Spatial Joins, and Point-in-Polygon: Working with the National Dams Inventory](https://mikaleslie.github.io/geog-176A-labs/lab-04.html)
 
-- In this assignment we learned about geometry simplication, centroid generation, and tesselations
-- We used tesselations to explore the distribution of dams (and dam purpose) across the USA and challenges with the MAUP
+- Learned about geometry simplication, centroid generation, and tesselations
+- Used tesselations to explore the distribution of dams (and dam purpose) across the USA and challenges with the MAUP
 - Functions were implemented to automate repetitive tasks
 
 ![](img/lab4.png){width=60%}
@@ -55,9 +55,9 @@ This image shows density of dam locations in a CONUS projection using a voronoi 
 ### [Raster Analysis and Remote Sensing](https://mikaleslie.github.io/geog-176A-labs/lab-05.html)
 
 - In this assignment we worked with multiband raster files to detect and analyze a flood event near Palo, Iowa.
--  We practiced accessing and analysing data from Landsat 8 satellite. 
-- We learned about how different wavelengths can highlight different features via different combinations in the RGB channels.
-- We also practiced raster analysis using raster algebra and thresholding. 
+-  Practiced accessing and analysing data from Landsat 8 satellite. 
+- Learned about how different wavelengths can highlight different features via different combinations in the RGB channels.
+- Practiced raster analysis using raster algebra and thresholding. 
 
 ![](img/lab5.png){width=60%}
 
@@ -66,9 +66,9 @@ This image shows five unique thresholding methods for delineating surface water 
 ****
 ### [Terrain Analysis: Flood Risk in Mission Creek](https://mikaleslie.github.io/geog-176A-labs/lab-06.html)
 
-- In this assignment we estimated the number of buildings impacted in the 2017 Santa Barbara flood event along Mission Creek using data from web APIs (NLDI, OSM, AWS Elevation tiles).
-- We practiced accessing OSM data using the correct keys and values.
-- We used the whitebox frontend to generate a Height Above Nearest Drainage layer for the Mission Creek watershed.
+- Estimated the number of buildings impacted in the 2017 Santa Barbara flood event along Mission Creek using data from web APIs (NLDI, OSM, AWS Elevation tiles).
+- Practiced accessing OSM data using the correct keys and values.
+- Used the <code>whitebox</code> frontend to generate a Height Above Nearest Drainage layer for the Mission Creek watershed.
 - This flood data was cross analyzed with the OSM data to identify and map impacted buildings.
 
 ![](img/mission-creek-fim.gif){width=60%}
