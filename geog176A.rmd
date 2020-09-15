@@ -71,6 +71,8 @@ This image shows five unique thresholding methods for delineating surface water 
 - We used the whitebox frontend to generate a Height Above Nearest Drainage layer for the Mission Creek watershed.
 - This flood data was cross analyzed with the OSM data to identify and map impacted buildings.
 
+![](img/mission-creek-fim.gif){width=60%}
 
+This gif shows a flood inundation map library for Mission Creek for stage values ranging from 0 to 20 feet, with the hillshade, flood level, and impacted buildings for each stage.
 
 

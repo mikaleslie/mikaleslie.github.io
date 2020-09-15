@@ -3,14 +3,23 @@ title: "About Me"
 ---
   
 <center>
-# Hi, I'm Mika Leslie.
+# Hi, I'm Mika Leslie
 </center>
 
-I'm a fourth year Environmental Studies student at UCSB, before which I lived in Colorado and Canberra, Australia. Living in places where the natural world has been so readily available has left me with a profound appreciation of our planet, and my hope is that I will be able to continue to protect it and interact with it in my future career. I'm studying to get a Bachelor of Science, and am interested in the applicability of data science in environmental fields. I've held positions in several labs during my time at UCSB, and have gained experience with many techniques, including data entry and field work. Working in hospitality and playing on team sports for years has left me with the ability to thrive in environments where teamwork and collaboration is essential, and I am comfortable working both as a member of a team and taking the lead. Feel free to check out the rest of this site to see some of the projects I've worked on!
+I'm a fourth year Environmental Studies student at UCSB, before which I lived in Colorado and Canberra, Australia. Living in places where the natural world has been so readily available has left me with a deep appreciation of our planet, and my hope is that I will be able to continue to protect it and interact with it in my future career. 
 
+I'm studying to receive a Bachelor of Science, and am interested in the applicability of data science in environmental fields. I've held positions in several labs during my time at UCSB, and have gained experience with many techniques, including data entry and field work. In 2020 I began working with code to accomplish data analysis and GIS work using STATA and R. I created this website in RStudio during one of my classes in the summer of 2020, feel free to check out the rest of the site to see some of the projects I've worked on!
+
+- Contact me: mika.leslie8@gmail.com
+- Github: https://github.com/mikaleslie
+
+*****
 
 <center>
-![](img/housemates.jpg){width=30%}
+![](img/n1.jpg){width=33%} ![](img/n2.jpg){width=30%} ![](img/n3.jpg){width=33%}
 </center>
-Outside of school I play ultimate frisbee for UCSB, and our women's team is ranked in the top 10 nationwide. Here's a picture of me and my housemates (who are also my teammates) from last year, because I miss them.
+
+****
+
+In my free time, I play ultimate frisbee for UCSB, and our womxn's team is ranked in the top 10 nationwide. When I'm not palying ultimate, I love hiking and traveling whenever I can. 
 

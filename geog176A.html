@@ -15,7 +15,7 @@
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/sandstone.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -104,33 +104,33 @@ summary {
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 61px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h2 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h3 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h4 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h5 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .section h6 {
-  padding-top: 66px;
-  margin-top: -66px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 .dropdown-submenu {
   position: relative;
@@ -381,8 +381,13 @@ $(document).ready(function () {
 <div id="terrain-analysis-flood-risk-in-mission-creek" class="section level3">
 <h3><a href="https://mikaleslie.github.io/geog-176A-labs/lab-06.html">Terrain Analysis: Flood Risk in Mission Creek</a></h3>
 <ul>
-<li>We practiced accessing OSM data using the correct keys and values</li>
+<li>In this assignment we estimated the number of buildings impacted in the 2017 Santa Barbara flood event along Mission Creek using data from web APIs (NLDI, OSM, AWS Elevation tiles).</li>
+<li>We practiced accessing OSM data using the correct keys and values.</li>
+<li>We used the whitebox frontend to generate a Height Above Nearest Drainage layer for the Mission Creek watershed.</li>
+<li>This flood data was cross analyzed with the OSM data to identify and map impacted buildings.</li>
 </ul>
+<p><img src="img/mission-creek-fim.gif" style="width:60.0%" /></p>
+<p>This gif shows a flood inundation map library for Mission Creek for stage values ranging from 0 to 20 feet, with the hillshade, flood level, and impacted buildings for each stage.</p>
 </div>
 
 
