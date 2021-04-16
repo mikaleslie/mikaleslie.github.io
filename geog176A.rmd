@@ -75,4 +75,13 @@ This image shows five unique thresholding methods for delineating surface water 
 
 This gif shows a flood inundation map library for Mission Creek for stage values ranging from 0 to 20 feet, with the hillshade, flood level, and impacted buildings for each stage.
 
+**** 
+### [Identifying Populations Vulnerable to High Heat in California](https://arcg.is/01Kei10)
 
+- Collected and cleaned data from government websites 
+- Used GIS techniques such as spatial overlays to analyze data
+- Illustrated a correlation between data sets 
+
+![](img/cal1.png){width=30%} ![](img/cal2.png){width=30%}
+
+These images show visualizations of some of the data we collected for this project.
