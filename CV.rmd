@@ -3,6 +3,14 @@ title: "Mika Leslie"
 ---
 
 ##### Email: mika.leslie8@gmail.com
+
+***
+
+## Technical Skills
+- **Languages** - R, STATA
+- **Development** - Markdown, GitHub, MS Office, Google Suite
+- **Mapping** - <code>sf</code>, <code>raster</code>, <code>leaflet</code>, <code>OpenStreetMap</code>, <code>whitebox</code>    
+
 ****
 
 ## Highlights of Qualifications
@@ -13,16 +21,14 @@ title: "Mika Leslie"
 - **Efficient Multitasker** - Able to effectively meet customer needs in fast-paced and complex environments
 - **Excellent Work Ethic** - Maintained a GPA above 3.7 throughout college on top of several extra-curricular activities
 
-***
-
-## Technical Skills
-- **Languages** - R, STATA
-- **Development** - Markdown, GitHub, MS Office, Google Suite
-- **Mapping** - <code>sf</code>, <code>raster</code>, <code>leaflet</code>, <code>OpenStreetMap</code>, <code>whitebox</code>    
-
 ***** 
 
 ## Experience
+
+#### Research Assistant | Earth Research Institute | **Mar 2021 - Present**
+- Worked with ArcGIS and RStudio 
+- Analyzed environmental drivers of COVID transmission
+- Experience with data collection and cleaning 
 
 #### Administrative Student Assistant | UCSB Chemsitry Department | **Oct 2019 - Present**
 - Advised students on relevant academic information
@@ -47,7 +53,7 @@ title: "Mika Leslie"
 ****
 ## Education
 
-#### University of California Santa Barbara | **Expected June 2021**
+#### University of California Santa Barbara | **Expected June 2022**
 - B.S. in Environmental Studies
 - Current GPA: 3.89
 - Dean's List: Fall 2017, Winter 2018, Spring 2018, Winter 2019, Fall 2019, Winter 2020, Spring 2020
