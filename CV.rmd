@@ -8,7 +8,7 @@ title: "Mika Leslie"
 
 ## Technical Skills
 - **Languages** - R, STATA
-- **Development** - Markdown, GitHub, MS Office, Google Suite
+- **Development** - Markdown, GitHub, HTML, CSS, MS Office, Google Suite
 - **Mapping** - <code>sf</code>, <code>raster</code>, <code>leaflet</code>, <code>OpenStreetMap</code>, <code>whitebox</code>    
 
 ****
