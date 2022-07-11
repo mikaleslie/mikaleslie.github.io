@@ -2,7 +2,7 @@
 title: "Projects"
 ---
 
-In my time at UCSB I've developed skills in ArcGIS, R, Excel, and STATA. I have experience with data cleaning, collection, analysis, and visualization methods. Here is a collection of links to some of the projects I've created: 
+In my time at UCSB I've developed skills in ArcGIS, R, Excel, and STATA. I have experience with data cleaning, collection, analysis, and visualization methods. Here is a collection of links to some of the projects I've created:
 
 ****
 
