@@ -25,12 +25,17 @@ title: "Mika Leslie"
 
 ## Experience
 
-#### Research Assistant | Earth Research Institute | **Mar 2021 - Present**
+#### Arnhold Environmental Fellow | UCSB Marine Science Institute | **Mar 2021 - Jun 2021**
 - Worked with ArcGIS and RStudio 
-- Analyzed environmental drivers of COVID transmission
+- Analyzed environmental drivers of COVID transmission using GIS skills including spatial overlays and distance calculations
 - Experience with data collection and cleaning 
 
-#### Administrative Student Assistant | UCSB Chemsitry Department | **Oct 2019 - Present**
+#### Research Assistant | Earth Research Institute | **Mar 2021 - Jun 2021**
+- Worked with ArcGIS and RStudio 
+- Analyzed environmental drivers of COVID transmission using GIS skills including spatial overlays and distance calculations
+- Experience with data collection and cleaning 
+
+#### Administrative Student Assistant | UCSB Chemsitry Department | **Oct 2019 - Sep 2021**
 - Advised students on relevant academic information
 - Answered emails and phone calls for the advising team
 - Assisted with any required administration tasks, including data entry, excel work, and updating the department website

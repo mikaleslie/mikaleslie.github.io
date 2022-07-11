@@ -14,6 +14,18 @@ In my time at UCSB I've developed skills in ArcGIS, R, Excel, and STATA. I have 
 
 ****
 
+### [Agriculture and Food Access in California](https://arcg.is/19L5HL0)
+
+- Honors contract for an upper division food systems class investigating trends in food insecurity and population dynamics among California's top agricultural counties
+- Collected and cleaned food access and food security data from government websites 
+- Used GIS techniques such as spatial overlays to illustrate a trend in the data
+- Reproducible code for analysis produced in RStudio and visualizations finalized using ArcGIS Online
+
+![](img/food.png){width=70%}
+
+
+****
+
 ### [Data Wrangling: Manipulating Live Covid-19 Pandemic Data](https://mikaleslie.github.io/geog-176A-labs/lab-02.html)
 
 - Worked with live data from the COVID-19 pandemic sourced from the NYT
@@ -24,7 +36,6 @@ In my time at UCSB I've developed skills in ArcGIS, R, Excel, and STATA. I have 
 ![](img/lab2.png){width=60%}
 
 This image was produced using NYT COVID-19 data and shows daily new cases in four states, as well as the seven day rolling mean. 
-
 
 
 ****
