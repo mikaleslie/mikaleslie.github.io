@@ -18,11 +18,24 @@ In my time at UCSB I've developed skills in ArcGIS, R, Excel, and STATA. I have 
 
 - Honors contract for an upper division food systems class investigating trends in food insecurity and population dynamics among California's top agricultural counties
 - Collected and cleaned food access and food security data from government websites 
-- Used GIS techniques such as spatial overlays to illustrate a trend in the data
+- Used GIS techniques such as spatial overlays to illustrate trends in the data
 - Reproducible code for analysis produced in RStudio and visualizations finalized using ArcGIS Online
 
-![](img/food.png){width=70%}
+![](img/food.png){width=70%} 
 
+This is one of the maps I created for this project, highlighting the large Hispanic and Latino populations in the top agricultural counties in California. In this project I used visualizations like this map to help illustrate how the prevalence of food insecurity in these counties is linked to racial and political factors.
+
+**** 
+
+### [Statistical Analysis of Biological Data](https://mikaleslie.github.io/mikaleslie/eemb_final.html)
+
+- Statistical analysis report created using real-world biological data
+- Statistical techniques used include analysis of normalcy variance, covariance, and use of transformations
+- Practiced data visualization skills to aid in the interpretation of data and trends
+
+![](img/stats.png){width=60%}
+
+This image shows one of the visualizations I created for my report, illustrating the varying levels of gross photosynthesis of coral species at sites where seawater had high (red) and low (blue) concentrations of CO2. 
 
 ****
 

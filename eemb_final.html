@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Mika Leslie" />
+
+
+<title>Gross Photosynthesis, But Not Ew Gross, Photosynthesis: A Statistical Report on Predictors of Gross Photosynthesis in Tropical Corals</title>
+
+<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/journal.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<script src="site_libs/navigation-1.1/codefolding.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+<style type="text/css">
+.code-folding-btn { margin-bottom: 4px; }
+</style>
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Mika Leslie</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="geog176A.html">
+    <span class="fa fa-globe"></span>
+     
+    GIS Work
+  </a>
+</li>
+<li>
+  <a href="CV.html">
+    <span class="fa fa-file-text-o"></span>
+     
+    CV
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/mikaleslie">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/mika-leslie-02283a1b0/">
+    <span class="fa fa-linkedin-square"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+<div class="btn-group pull-right float-right">
+<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
+<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
+<li><a id="rmd-show-all-code" href="#">Show All Code</a></li>
+<li><a id="rmd-hide-all-code" href="#">Hide All Code</a></li>
+</ul>
+</div>
+
+
+
+<h1 class="title toc-ignore">Gross Photosynthesis, But Not Ew Gross,
+Photosynthesis: A Statistical Report on Predictors of Gross
+Photosynthesis in Tropical Corals</h1>
+<h4 class="author">Mika Leslie</h4>
+<h4 class="date">5/13/2020</h4>
+
+</div>
+
+
+<div id="abstract" class="section level2">
+<h2>Abstract</h2>
+<p>Increased carbon dioxide concentrations in seawater are causing ocean
+acidification, threatening corals by reducing their ability to build
+their calcium carbonate skeletons. This is a widely researched topic,
+but fewer studies have investigated the effect of ocean acidification on
+coral photosynthesis. This study uses data collected from sites with
+high and low carbon dioxide concentrations to address this question
+using statistical analyses. The results indicated that corals in
+seawater with high concentrations of carbon dioxide tended to have
+higher rates of gross photosynthesis, with variability among the coral
+species tested. Carbon dioxide concentration in seawater, coral species,
+and the size of coral fragment were all significant predictors of gross
+photosynthesis.</p>
+</div>
+<div id="introduction" class="section level2">
+<h2>Introduction</h2>
+<p>Ocean acidification refers to the process where increasing carbon
+dioxide (C02) levels in the atmosphere leads to the decrease of seawater
+pH and the modification of carbonate chemistry in seawater [1]. Much of
+the research surrounding ocean acidification and corals has focused on
+the carbonate chemistry aspect, because corals create their structures
+out of calcium carbonate [2]. Fewer studies have focused on the effects
+of C02 concentration on coral respiration and photosynthesis, although
+one study suggested that the increased cost of calcification may result
+in a positive correlation between aerobic respiration and ocean
+acidification conditions [6].</p>
+<p>This study investigated the impact of ocean acidification conditions
+on coral respiration rates using volcanic C02 seeps as a proxy for
+future conditions. Twelve different coral species from Papua New Guinea
+were studied, with coral fragments collected both at the high C02
+volcanic sites and at nearby reference sites. Net photosynthesis and
+dark respiration rates for each coral fragment were collected under a
+controlled environment using seawater from either a C02 seep site or
+reference site, and gross photosynthesis was then calculated using those
+values [1]. The data used in this report is from T. Biscéré et. al, and
+the original paper can be found at royalsocietypublishing.org [1]. There
+are 300 total observations in the data set and while the original data
+set has 11 variables, the cleaned data set was subsetted to only include
+the 4 variables being studied in this paper.</p>
+<p>The research question this report is trying to answer is what
+influences the gross photosynthesis rate of tropical corals. The
+hypothesis of this study was that the respiration rate of corals will be
+higher in seawater with high C02 concentration and when the coral
+fragments have larger surface area, and that gross photosynthesis will
+vary depending on coral species. If the study shows that corals have
+increased respiration rates at high C02 concentrations, this could
+inform future research projects into protecting corals from increasing
+ocean acidification conditions.</p>
+</div>
+<div id="exploratory-data-analysis" class="section level2">
+<h2>Exploratory Data Analysis</h2>
+<p>Figure 1 shows a correlation plot of the ocean acidification data.
+Gross_photosynthesis is the response variable, while the other three
+variables are the predictor variables. Species and Site are both
+categorical variables, while surface area (SA) is a numeric variable.
+The histogram of the gross photosynthesis data in Figure 1 indicates
+that the data is right skewed, and therefore is not normal. The SA data
+also appears to be right skewed, which can be seen from the histogram in
+Figure 1 and the scatter plot in Figure 2. The boxplot in Figure 2
+suggests that there are some outliers in the gross photosynthesis data
+when it is plotted against C02 concentration. The boxplot in Figure 3 of
+gross photosynthesis against coral species also indicates that outliers
+are present.</p>
+<div class="figure">
+<img src="eemb_final_files/figure-html/unnamed-chunk-2-1.png" alt="Figure 1. Scatter plot matrix with correlation values of the response variable, gross photosynthesis, and the predictor variables, coral species, site (C02 concentration of seawater), and surface area of coral fragment." width="672" />
+<p class="caption">
+Figure 1. Scatter plot matrix with correlation values of the response
+variable, gross photosynthesis, and the predictor variables, coral
+species, site (C02 concentration of seawater), and surface area of coral
+fragment.
+</p>
+</div>
+<div class="figure">
+<img src="eemb_final_files/figure-html/unnamed-chunk-3-1.png" alt="Plot on the left shows a scatter plot of gross photosynthesis against surface area of coral fragments. Plot on the right shows a box plot of gross photosynthesis of corals at high and low C02 concentrations of seawater." width="672" />
+<p class="caption">
+Plot on the left shows a scatter plot of gross photosynthesis against
+surface area of coral fragments. Plot on the right shows a box plot of
+gross photosynthesis of corals at high and low C02 concentrations of
+seawater.
+</p>
+</div>
+<div class="figure">
+<img src="eemb_final_files/figure-html/unnamed-chunk-4-1.png" alt="Boxplot of gross photosynthesis of coral species" width="672" />
+<p class="caption">
+Boxplot of gross photosynthesis of coral species
+</p>
+</div>
+</div>
+<div id="statistical-methods" class="section level2">
+<h2>Statistical Methods</h2>
+<p>Two statistical methods were used to answer the question of whether
+coral species, surface area, or seawater C02 concentration are
+predictors of gross photosynthesis in corals. Because the data did not
+meet the assumptions of normality, non-parametric alternative tests were
+used. The first was the Wilcoxon test, which was used to compare the
+gross photosynthesis rates of corals in seawater with a low C02
+concentration with those in seawater with a high C02 concentration. The
+second test was a general linear model that was used to test which
+variables are significant predictors of gross photosynthesis.</p>
+<div id="does-gross-photosynthesis-vary-by-c02-concentration"
+class="section level4">
+<h4>Does gross photosynthesis vary by C02 concentration?</h4>
+<ul>
+<li><strong>Null hypothesis:</strong> Gross photosynthesis does not vary
+by C02 concentration.</li>
+<li><strong>Alternative hypothesis:</strong> Gross photosynthesis does
+vary by C02 concentration.</li>
+</ul>
+<p>To test this hypothesis, a two-sample t-test could be used. A
+two-sample t-test assumes that the observations from each group
+represent a random sample from the population, that the residuals are
+normally distributed, and that the observations from the two groups have
+the same variance.</p>
+<p>A Shapiro-Wilk test on the residuals of a linear model was used to
+test the assumption of normality, and the resulting p-value was
+8.401e-08. Because this value was less than 0.05, the null hypothesis of
+the Shapiro-Wilk test that the data is normal was rejected, and the
+assumption of normality was not met. This test and a qqPlot of the
+residuals can be seen in Appendix 2.a.</p>
+<p>A Levene’s test was used to test the assumption of equal variance.
+The p-value of this test was 0.06374, which is greater than 0.05 so we
+fail to reject the null hypothesis that the variances are unequal
+between the two groups. Because the assumption of normality was not met,
+a non-parametric test was required. Given the assumption of equal
+variances was met, the test used was the Wilcoxon test.</p>
+</div>
+<div id="what-variables-are-good-predictors-of-gross-photosynthesis"
+class="section level4">
+<h4>What variables are good predictors of gross photosynthesis?</h4>
+<ul>
+<li><strong>Null hypothesis:</strong> None of the variables are
+significant predictors of gross photosynthesis in corals.</li>
+<li><strong>Alternative hypothesis:</strong> One or more of the
+variables are significant predictors of gross photosynthesis in
+corals.</li>
+</ul>
+<p>A statistical analysis for regression was used to test this
+hypothesis. A standard linear model assumes that the residuals of the
+model are normal and have equal variane. The assumption of normality was
+tested using a qqPlot and Shapiro-Wilk test, available in Appendix 2.b.
+The p-value of the Shapiro-Wilk test was 1.02e-08. Because this value
+was less than 0.05, the null hypothesis of the Shapiro-Wilk test that
+the data is normal was rejected, and the assumption of normality was not
+met.</p>
+<p>Given the assumption of normality was not met, the non-parametric
+alternative of a generalized linear model (glm) was used. Because the
+data was not binary data or count data, the Gaussian family was used as
+opposed to a Binomial or Poisson glm. In order to determine which
+variables were good predictors of gross photosynthesis, a glm was fit
+with one variable each, with each combination of two variables, and a
+final glm with all three predictor variables. These models can be seen
+in Appendix 2b.</p>
+</div>
+</div>
+<div id="results" class="section level2">
+<h2>Results</h2>
+<p>The Wilcoxon test showed that gross photosynthesis rates among corals
+are significantly different between high and low C02 concentrations in
+seawater. The Gaussian generalized linear model used for the second
+question showed that coral species, C02 concentration in seawater, and
+the size of coral fragment are all significant predictors of gross
+photosynthesis.</p>
+<div id="does-gross-photosynthesis-vary-by-c02-concentration-1"
+class="section level4">
+<h4>Does gross photosynthesis vary by C02 concentration?</h4>
+<p>The p-value from the Wilcoxon test was 2.662e-06, less than 0.05. At
+the 5% significance level we reject the null hypothesis and conclude
+that gross photosynthesis rates among corals are significantly different
+between high and low C02 concentrations in seawater. From Figure 4 we
+can see that the rate of gross photosynthesis is higher at high
+concentrations of C02.</p>
+<div class="figure">
+<img src="eemb_final_files/figure-html/unnamed-chunk-5-1.png" alt="Boxplot of gross photosynthesis of corals at high and low C02 concentrations of seawater" width="672" />
+<p class="caption">
+Boxplot of gross photosynthesis of corals at high and low C02
+concentrations of seawater
+</p>
+</div>
+</div>
+<div id="what-variables-are-good-predictors-of-gross-photosynthesis-1"
+class="section level4">
+<h4>What variables are good predictors of gross photosynthesis?</h4>
+<p>AIC and BIC values are used to compare linear models in model
+selection. In both cases, the model with the smallest value is
+considered the best model by the test. BIC differs from AIC in that it
+places higher penalty on extra parameters. Despite this, both the AIC
+and BIC values were smallest for the glm in which all three predictor
+variables were included. This indicates that coral species, C02
+concentration in seawater, and the size of coral fragment are all
+significant predictors of gross photosynthesis. In the summary of this
+glm, the results indicate that seven of the levels in the species
+variable are significant predictors of gross photosynthesis. This
+variation between species can also be seen in the boxplot in Figure
+5.</p>
+<table class="table" style="margin-left: auto; margin-right: auto;">
+<caption>
+Table of GLM Models with df, AIc, and BIC values
+</caption>
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:center;">
+df
+</th>
+<th style="text-align:center;">
+AIC
+</th>
+<th style="text-align:center;">
+BIC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+glm_species_site_SA
+</td>
+<td style="text-align:center;">
+15
+</td>
+<td style="text-align:center;">
+340.95
+</td>
+<td style="text-align:center;">
+396.51
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glm_species_site
+</td>
+<td style="text-align:center;">
+14
+</td>
+<td style="text-align:center;">
+392.53
+</td>
+<td style="text-align:center;">
+444.38
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glm_site_SA
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+463.65
+</td>
+<td style="text-align:center;">
+478.47
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glm_species_SA
+</td>
+<td style="text-align:center;">
+14
+</td>
+<td style="text-align:center;">
+392.65
+</td>
+<td style="text-align:center;">
+444.50
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glm_site
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+498.76
+</td>
+<td style="text-align:center;">
+509.87
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glm_species
+</td>
+<td style="text-align:center;">
+13
+</td>
+<td style="text-align:center;">
+418.80
+</td>
+<td style="text-align:center;">
+466.95
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glm_SA
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+498.73
+</td>
+<td style="text-align:center;">
+509.84
+</td>
+</tr>
+</tbody>
+</table>
+<div class="figure">
+<img src="eemb_final_files/figure-html/unnamed-chunk-7-1.png" alt="Boxplot of gross photosynthesis of coral species in high and low C02 concentration seawater." width="672" />
+<p class="caption">
+Boxplot of gross photosynthesis of coral species in high and low C02
+concentration seawater.
+</p>
+</div>
+</div>
+</div>
+<div id="discussion" class="section level2">
+<h2>Discussion</h2>
+<p>The results of the first test show that corals in high concentrations
+of C02 have a higher rate of gross photosynthesis than those at low
+concentrations. The results from the second test indicate that coral
+species, C02 concentration in seawater, and size of coral fragment are
+all significant predictors of gross photosynthesis. Together, both of
+these tests help answer the research question of what influences the
+gross photosynthesis rate of tropical corals. This is a promising
+result, because if gross photosynthesis for corals increases at high
+concentrations of C02, there may be more hope for their survival in
+increasing ocean acidification conditions. Further research could focus
+on the coral species that showed particularly high photosynthesis rates
+at sites with high C02 concentrations.</p>
+<p>This report is limited by the fact that the data was not normal, so
+less powerful non-parametric tests had to be used. Also, some of the
+coral species were not found at all locations, which could have impacted
+the data. One improvement could have been to focus on the species of
+corals that were present at all locations in order to help remove the
+effect of potential variation that might occur between sites.</p>
+</div>
+<div id="references" class="section level2">
+<h2>References</h2>
+<ol style="list-style-type: decimal">
+<li><p>Biscéré, T., Zampighi, M., Lorrain, A., Jurriaans, S., Foggo, A.,
+Houlbrèque, F., &amp; Rodolfo-Metalpa, R. (2019). High pCO2 Promotes
+Coral Primary Production. Biology Letters, 15(7), 20180777. <a
+href="https://doi.org/10.1098/rsbl.2018.0777"
+class="uri">https://doi.org/10.1098/rsbl.2018.0777</a></p></li>
+<li><p>Comeau, S., Carpenter, R., &amp; Edmunds, P. (2016). Effects of
+pCO2 on Photosynthesis and Respiration of Tropical Scleractinian Corals
+and Calcified Algae. ICES Journal Of Marine Science, 74(4), 1092-1102.
+<a href="https://doi.org/10.1093/icesjms/fsv267"
+class="uri">https://doi.org/10.1093/icesjms/fsv267</a></p></li>
+<li><p>Fox, J., &amp; Weisberg, S. (2019). An {R} Companion to Applied
+Regression, Third Edition. Thousand Oaks CA: Sage. URL: <a
+href="https://socialsciences.mcmaster.ca/jfox/Books/Companion/"
+class="uri">https://socialsciences.mcmaster.ca/jfox/Books/Companion/</a></p></li>
+<li><p>Hao Zhu (2019). kableExtra: Construct Complex Table with ‘kable’
+and Pipe Syntax. R package version 1.1.0. <a
+href="https://CRAN.R-project.org/package=kableExtra"
+class="uri">https://CRAN.R-project.org/package=kableExtra</a></p></li>
+<li><p>H. Wickham. ggplot2: Elegant Graphics for Data Analysis.
+Springer-Verlag New York, 2016.</p></li>
+<li><p>McCulloch, M., Falter, J., Trotter, J., &amp; Montagna, P.
+(2012). Coral Resilience to Ocean Acidification and Global Warming
+Through pH Up-Regulation. Nature Climate Change, 2(8), 623-627. <a
+href="https://doi.org/10.1038/nclimate1473"
+class="uri">https://doi.org/10.1038/nclimate1473</a></p></li>
+<li><p>Revelle, W. (2020) psych: Procedures for Personality and
+Psychological Research, Northwestern University, Evanston, Illinois,
+USA, <a href="https://CRAN.R-project.org/package=psych"
+class="uri">https://CRAN.R-project.org/package=psych</a> Version =
+2.1.3,.</p></li>
+<li><p>Wickham et al., (2019). Welcome to the tidyverse. Journal of Open
+Source Software, 4(43), 1686, <a
+href="https://doi.org/10.21105/joss.01686"
+class="uri">https://doi.org/10.21105/joss.01686</a></p></li>
+<li><p>Wickham, H., Hester, J., &amp; Francois, R. (2018). readr: Read
+Rectangular Text Data. R package version 1.3.1. <a
+href="https://CRAN.R-project.org/package=readr"
+class="uri">https://CRAN.R-project.org/package=readr</a></p></li>
+<li><p>Yihui Xie (2020). knitr: A General-Purpose Package for Dynamic
+Report Generation in R. R package version 1.29.</p></li>
+</ol>
+</div>
+<div id="appendix" class="section level2">
+<h2>Appendix</h2>
+<div id="exploratory-data-analysis-1" class="section level3">
+<h3>1. Exploratory data analysis</h3>
+<pre class="r"><code>#How many observations?
+dim(data)</code></pre>
+<pre><code>## [1] 300   4</code></pre>
+<pre class="r"><code>#general data checking
+summary(data)</code></pre>
+<pre><code>##    Species              Site           gross_photosynthesis       SA        
+##  Length:300         Length:300         Min.   :0.2001       Min.   : 1.843  
+##  Class :character   Class :character   1st Qu.:0.7000       1st Qu.: 4.289  
+##  Mode  :character   Mode  :character   Median :1.1059       Median : 5.953  
+##                                        Mean   :1.1448       Mean   : 6.718  
+##                                        3rd Qu.:1.4666       3rd Qu.: 8.418  
+##                                        Max.   :3.9743       Max.   :35.767</code></pre>
+<pre class="r"><code>#Check numeric variables for normality
+par(mfrow=c(1,2))
+hist(data$gross_photosynthesis, main=&quot;&quot;, xlab=expression(&quot;Gross Photosynthesis (umolO&quot;[2]*&quot; cm&quot;^-2* &quot;h&quot;^-1*&quot;)&quot;))
+hist(data$SA, main=&quot;&quot;, xlab=&quot;Surface Area of Coral Fragments&quot;)</code></pre>
+<p><img src="eemb_final_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<pre class="r"><code>par(mfrow=c(1,1))
+#both variables appear right skewed
+
+shapiro.test(data$gross_photosynthesis) #p-value: 2.172e-08 -&gt; not normal</code></pre>
+<pre><code>## 
+##  Shapiro-Wilk normality test
+## 
+## data:  data$gross_photosynthesis
+## W = 0.95161, p-value = 2.172e-08</code></pre>
+<pre class="r"><code>shapiro.test(data$SA) #p-value &lt; 2.2e-16 -&gt; not normal</code></pre>
+<pre><code>## 
+##  Shapiro-Wilk normality test
+## 
+## data:  data$SA
+## W = 0.81559, p-value &lt; 2.2e-16</code></pre>
+<pre class="r"><code>par(mfrow=c(1,2))
+qqPlot(data$gross_photosynthesis) #not normal</code></pre>
+<pre><code>## [1] 296 103</code></pre>
+<pre class="r"><code>qqPlot(data$SA) #not normal</code></pre>
+<p><img src="eemb_final_files/figure-html/unnamed-chunk-8-2.png" width="672" /></p>
+<pre><code>## [1] 125 256</code></pre>
+<pre class="r"><code>par(mfrow=c(1,1))
+
+#more numeric var investigation
+pairs.panels(data[1:4]) #include as a fig</code></pre>
+<p><img src="eemb_final_files/figure-html/unnamed-chunk-8-3.png" width="672" /></p>
+<pre class="r"><code>#numeric vars vs. categorical vars
+par(mfrow=c(1,2)) #include as a fig
+boxplot(gross_photosynthesis ~ Species, data=data, xlab=&quot;Gross Photosynthesis&quot;)
+boxplot(gross_photosynthesis ~ Site, data=data, xlab=&quot;Gross Photosynthesis&quot;)</code></pre>
+<p><img src="eemb_final_files/figure-html/unnamed-chunk-8-4.png" width="672" /></p>
+<pre class="r"><code>par(mfrow=c(1,1))
+
+#based on all this, here are my findings:
+
+#gross photosynthesis not normal, may need to be transformed
+#little correlation between predictor variables
+#both site and species seem like they may be predictors of gross photosynthesis
+
+#site only has two levels, could run a two-sample test for the first &quot;comparing means&quot; test, will need to be non-parametric if gross photosynthesis cannot be transformed
+#will run either a linear model or a glm to see what variables are most predictive of gross photosynthesis for my &quot;predictive&quot; test</code></pre>
+</div>
+<div id="statistical-methods-1" class="section level3">
+<h3>2. Statistical methods</h3>
+<div id="a-wilcoxon-test" class="section level4">
+<h4>2.a Wilcoxon test</h4>
+<pre class="r"><code>#goal: comparing means test - preferably a t-test but data may not be normal
+
+#step 1: check assumptions of t-test
+#indep data? probably
+#normality
+#equal variance
+
+shapiro.test(data$gross_photosynthesis)</code></pre>
+<pre><code>## 
+##  Shapiro-Wilk normality test
+## 
+## data:  data$gross_photosynthesis
+## W = 0.95161, p-value = 2.172e-08</code></pre>
+<pre class="r"><code>fit &lt;- lm(gross_photosynthesis~Site,data=data)
+par(mfrow=c(2,2))
+plot(fit) #data does not look normal</code></pre>
+<p><img src="eemb_final_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<pre class="r"><code>par(mfrow=c(1,1))
+res &lt;- fit$residuals
+
+shapiro.test(res) #p-value: 8.401e-08 -&gt; not normal</code></pre>
+<pre><code>## 
+##  Shapiro-Wilk normality test
+## 
+## data:  res
+## W = 0.9564, p-value = 8.401e-08</code></pre>
+<pre class="r"><code>qqPlot(res) #not normal</code></pre>
+<p><img src="eemb_final_files/figure-html/unnamed-chunk-9-2.png" width="672" /></p>
+<pre><code>## [1] 296 103</code></pre>
+<pre class="r"><code>#try transforming the data to achieve normality
+#log transform response variable
+data$log_photo &lt;- log(data$gross_photosynthesis)
+hist(data$log_photo)</code></pre>
+<p><img src="eemb_final_files/figure-html/unnamed-chunk-9-3.png" width="672" /></p>
+<pre class="r"><code>#Fit model
+log_fit &lt;- lm(log_photo~Site,data=data)
+#Get residuals
+log_res &lt;- log_fit$residuals
+#Test normality of model residuals
+shapiro.test(log_res) #p-value of 1.117e-05 is less than 0.05, so we reject the null hypothesis that the residuals of the log transformed data is normal</code></pre>
+<pre><code>## 
+##  Shapiro-Wilk normality test
+## 
+## data:  log_res
+## W = 0.97142, p-value = 1.117e-05</code></pre>
+<pre class="r"><code>leveneTest(data$gross_photosynthesis, data$Site) #p-value: 0.06374 -&gt; variances are equal</code></pre>
+<pre><code>## Warning in leveneTest.default(data$gross_photosynthesis, data$Site): data$Site
+## coerced to factor.</code></pre>
+<pre><code>## Levene&#39;s Test for Homogeneity of Variance (center = median)
+##        Df F value  Pr(&gt;F)  
+## group   1   3.463 0.06374 .
+##       298                  
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+<pre class="r"><code>#the assumption of homogeneity of variance has been met, but the assumption of normality has not, and the log-transformation was unsuccessful in making the data normal
+#will need to use a non-parametric test that does not have a normality assumption - Wilcoxon test
+
+#step 2: wilcoxon test
+
+wilcox.test(data$gross_photosynthesis ~ data$Site) #p-value: 2.662e-06 -&gt; significant difference between gross photosynthesis at high and low C02 concentrations</code></pre>
+<pre><code>## 
+##  Wilcoxon rank sum test with continuity correction
+## 
+## data:  data$gross_photosynthesis by data$Site
+## W = 14720, p-value = 2.662e-06
+## alternative hypothesis: true location shift is not equal to 0</code></pre>
+<pre class="r"><code>#step 4: make a nice ggplot figure to summarize these results, include as a fig
+
+ggplot(data, aes(x = Site, y = gross_photosynthesis, color=Site)) +
+         geom_boxplot()+
+  xlab(&quot;Coral Species&quot;)+
+  ylab(expression(&quot;Gross Photosynthesis (umolO&quot;[2]*&quot; cm&quot;^-2* &quot;h&quot;^-1*&quot;)&quot;))+
+  scale_color_manual(values=c(&quot;orchid&quot;, &quot;lightseagreen&quot;))+ #set line colors
+  theme(text = element_text(size=14)) </code></pre>
+<p><img src="eemb_final_files/figure-html/unnamed-chunk-9-4.png" width="672" /></p>
+</div>
+<div id="b-linear-regression" class="section level4">
+<h4>2.b Linear regression</h4>
+<pre class="r"><code>#goal: use model selection to see what variables are significant predictors of gross photosynthesis 
+
+#step 1: check assumptions of linear regression
+#indep? probably
+#normal residuals?
+#equal variances?
+
+fit2 &lt;- lm(gross_photosynthesis ~ Site + Species + SA, data=data) 
+par(mfrow=c(2,2))
+plot(fit2) #residuals not normal, variance may be increasing towards the right</code></pre>
+<p><img src="eemb_final_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+<pre class="r"><code>par(mfrow=c(1,1))
+res2 &lt;- fit2$residuals
+qqPlot(res2) #not normal</code></pre>
+<p><img src="eemb_final_files/figure-html/unnamed-chunk-10-2.png" width="672" /></p>
+<pre><code>## [1] 296 125</code></pre>
+<pre class="r"><code>shapiro.test(res2) #p-value: 1.02e-08 -&gt; residuals not normal</code></pre>
+<pre><code>## 
+##  Shapiro-Wilk normality test
+## 
+## data:  res2
+## W = 0.94881, p-value = 1.02e-08</code></pre>
+<pre class="r"><code>#will need to use a generalized linear model that does not have the same assumptions of a linear regression (non-parametric alternative)
+#the data is not binomial or count data (would use a Poisson glm), so will use the a Gaussian glm
+
+#step 2: run a glm for different combinations of variables
+#glm with all three predictor variables
+glm_species_site_SA &lt;- glm(gross_photosynthesis ~ Species + Site + SA, data = data, family = &quot;gaussian&quot;)
+
+#glm with two predictor variables: species and site
+glm_species_site &lt;- glm(gross_photosynthesis ~ Species + Site, data = data, family = &quot;gaussian&quot;)
+
+#glm with two predictor variables: site and SA
+glm_site_SA &lt;- glm(gross_photosynthesis ~ Site + SA, data = data, family = &quot;gaussian&quot;)
+
+#glm with two predictor variables: species and SA
+glm_species_SA &lt;- glm(gross_photosynthesis ~ Species + SA, data = data, family = &quot;gaussian&quot;)
+
+#glm with one predictor variable: site
+glm_site &lt;- glm(gross_photosynthesis ~ Site, data = data, family = &quot;gaussian&quot;)
+
+#glm with one predictor variable: species
+glm_species &lt;- glm(gross_photosynthesis ~ Species, data = data, family = &quot;gaussian&quot;)
+
+#glm with one predictor variable: SA
+glm_SA &lt;- glm(gross_photosynthesis ~ SA, data = data, family = &quot;gaussian&quot;)
+
+#step 3: Assess model fit
+#calculate AIC of each model
+result &lt;- AIC(glm_species_site_SA,glm_species_site,glm_site_SA, glm_species_SA, glm_site, glm_species, glm_SA) #this will create a dataframe whose rownames are the models, with columns for the df and AIC of each model
+
+#add other metrics to the table
+models &lt;- list(glm_species_site_SA,glm_species_site,glm_site_SA, glm_species_SA, glm_site, glm_species, glm_SA) 
+result$BIC &lt;- sapply(models, BIC) #add a column for BIC to the results
+
+#Create a table with model comparisons
+kable(result, digits = 2, align = &quot;c&quot;) %&gt;% 
+  kable_styling(bootstrap_options = c(&quot;striped&quot;, &quot;hover&quot;))</code></pre>
+<table class="table table-striped table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:center;">
+df
+</th>
+<th style="text-align:center;">
+AIC
+</th>
+<th style="text-align:center;">
+BIC
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+glm_species_site_SA
+</td>
+<td style="text-align:center;">
+15
+</td>
+<td style="text-align:center;">
+340.95
+</td>
+<td style="text-align:center;">
+396.51
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glm_species_site
+</td>
+<td style="text-align:center;">
+14
+</td>
+<td style="text-align:center;">
+392.53
+</td>
+<td style="text-align:center;">
+444.38
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glm_site_SA
+</td>
+<td style="text-align:center;">
+4
+</td>
+<td style="text-align:center;">
+463.65
+</td>
+<td style="text-align:center;">
+478.47
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glm_species_SA
+</td>
+<td style="text-align:center;">
+14
+</td>
+<td style="text-align:center;">
+392.65
+</td>
+<td style="text-align:center;">
+444.50
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glm_site
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+498.76
+</td>
+<td style="text-align:center;">
+509.87
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glm_species
+</td>
+<td style="text-align:center;">
+13
+</td>
+<td style="text-align:center;">
+418.80
+</td>
+<td style="text-align:center;">
+466.95
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+glm_SA
+</td>
+<td style="text-align:center;">
+3
+</td>
+<td style="text-align:center;">
+498.73
+</td>
+<td style="text-align:center;">
+509.84
+</td>
+</tr>
+</tbody>
+</table>
+<pre class="r"><code>#The glm model with all three predictor variables has the lowest AIC and BIC score, indicating that it is the best model
+#Site, species, and SA are all significant predictors of gross photosynthesis
+
+#step 4: Closer look at selected glm
+summary(glm_species_site_SA)</code></pre>
+<pre><code>## 
+## Call:
+## glm(formula = gross_photosynthesis ~ Species + Site + SA, family = &quot;gaussian&quot;, 
+##     data = data)
+## 
+## Deviance Residuals: 
+##      Min        1Q    Median        3Q       Max  
+## -1.03716  -0.26156  -0.02249   0.18857   2.00397  
+## 
+## Coefficients:
+##                                Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)                    1.206297   0.162754   7.412 1.41e-12 ***
+## SpeciesAcropora nana           0.802639   0.171394   4.683 4.37e-06 ***
+## SpeciesAcropora tenuis         0.475888   0.162262   2.933 0.003630 ** 
+## SpeciesDipsastraea pallida     0.248237   0.187293   1.325 0.186098    
+## SpeciesFavites halicora       -0.175808   0.193698  -0.908 0.364833    
+## SpeciesFavites pentagona      -0.332637   0.197803  -1.682 0.093727 .  
+## SpeciesGalaxea fascicularis    0.006523   0.198006   0.033 0.973742    
+## SpeciesHeliopora coerulea      0.222325   0.185848   1.196 0.232580    
+## SpeciesPocillopora damicornis  0.655759   0.175616   3.734 0.000227 ***
+## SpeciesPocillopora verrucosa   0.903487   0.157285   5.744 2.36e-08 ***
+## SpeciesPorites cylindrica      0.401746   0.158791   2.530 0.011942 *  
+## SpeciesSeriatopora hystrix     0.538651   0.160178   3.363 0.000877 ***
+## SiteLow                       -0.374032   0.049957  -7.487 8.77e-13 ***
+## SA                            -0.052254   0.006988  -7.478 9.29e-13 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## (Dispersion parameter for gaussian family taken to be 0.173154)
+## 
+##     Null deviance: 97.414  on 299  degrees of freedom
+## Residual deviance: 49.522  on 286  degrees of freedom
+## AIC: 340.95
+## 
+## Number of Fisher Scoring iterations: 2</code></pre>
+<pre class="r"><code>#step 5: make a pretty graph to summarize findings
+
+ggplot(data, aes(x=Species, y=gross_photosynthesis, color = Site))+
+  geom_boxplot()+
+  theme(axis.text.x = element_text(angle = 45, vjust = 0.6)) +
+  labs(color = &quot;C02 Concentration&quot;)+
+  ylab(expression(&quot;Gross Photosynthesis (umolO&quot;[2]*&quot; cm&quot;^-2* &quot;h&quot;^-1*&quot;)&quot;))+
+  xlab(&quot;Coral Species&quot;)</code></pre>
+<p><img src="eemb_final_files/figure-html/unnamed-chunk-10-3.png" width="672" /></p>
+<pre class="r"><code>ggplot(data, aes(x = SA, y = gross_photosynthesis)) +
+  geom_point()+
+  geom_smooth(method=&#39;lm&#39;, se = FALSE, col = &#39;green&#39;)+
+  ylab(expression(&quot;Gross Photosynthesis (umolO&quot;[2]*&quot; cm&quot;^-2* &quot;h&quot;^-1*&quot;)&quot;))+
+  xlab(&quot;Surface Area of Coral Fragment&quot;)</code></pre>
+<pre><code>## `geom_smooth()` using formula &#39;y ~ x&#39;</code></pre>
+<p><img src="eemb_final_files/figure-html/unnamed-chunk-10-4.png" width="672" /></p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+<script>
+$(document).ready(function () {
+  window.initializeCodeFolding("show" === "show");
+});
+</script>
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
