@@ -6,7 +6,7 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "Completed Projects"
+    - text: "Projects"
       icon: fa-globe
       href: geog176A.html
     - text: "CV"
