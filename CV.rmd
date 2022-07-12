@@ -7,7 +7,7 @@ title: "Mika Leslie"
 ***
 
 ## Technical Skills
-- **Languages** - R, STATA
+- **Languages** - R, STATA, some Python
 - **Development** - Markdown, GitHub, HTML, CSS, MS Office, Google Suite
 - **Mapping** - <code>sf</code>, <code>raster</code>, <code>leaflet</code>, <code>OpenStreetMap</code>, <code>whitebox</code>    
 
@@ -18,7 +18,7 @@ title: "Mika Leslie"
 - **Collaboration** - Worked in many professional environments where collaboration was essential, including a 24 person Orientation Staff in 2019 
 - **Communication** - Extensive experience from jobs and team sports in effectively communicating with a wide range of people
 - **Leadership** - Responsible for leading groups of students through Orientation at UCSB; experience helping new members of teams acclimate 
-- **Efficient Multitasker** - Able to effectively meet customer needs in fast-paced and complex environments
+- **Problem Solving** - Experience troubleshooting in a data science context as well as solving issues in a work environment
 - **Excellent Work Ethic** - Maintained a GPA above 3.7 throughout college on top of several extra-curricular activities
 
 ***** 
@@ -58,7 +58,7 @@ title: "Mika Leslie"
 ****
 ## Education
 
-#### University of California Santa Barbara | **Expected June 2022**
+#### University of California Santa Barbara | **June 2022**
 - B.S. in Environmental Studies
-- Current GPA: 3.89
-- Dean's List: Fall 2017, Winter 2018, Spring 2018, Winter 2019, Fall 2019, Winter 2020, Spring 2020
+- GPA: 3.91
+- Dean's List: Fall ‘17, Winter ‘18, Spring ‘18, Winter ‘19, Fall ‘19, Winter ‘20, Spring ‘20, Spring ’21, Winter ‘22
