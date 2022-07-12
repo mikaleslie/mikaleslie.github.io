@@ -27,7 +27,7 @@ This is one of the maps I created for this project, highlighting the large Hispa
 
 **** 
 
-### [Statistical Analysis of Biological Data](https://mikaleslie.github.io/mikaleslie/eemb_final.html)
+### [Statistical Analysis of Biological Data](https://mikaleslie.github.io/eemb_final.html)
 
 - Statistical analysis report created using real-world biological data
 - Statistical techniques used include analysis of normalcy variance, covariance, and use of transformations
