@@ -24,7 +24,7 @@ In my time at UCSB I've developed skills in ArcGIS, R, Excel, and STATA. I have 
 ![](img/food.png){width=70%} 
 
 This is one of the maps I created for this project, highlighting the large Hispanic and Latino populations in the top agricultural counties in California. In this project I used visualizations like this map to help illustrate how the prevalence of food insecurity in these counties is linked to racial and political factors.
-
+2
 **** 
 
 ### [Statistical Analysis of Biological Data](https://mikaleslie.github.io/eemb_final.html)
